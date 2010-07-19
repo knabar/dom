@@ -309,6 +309,8 @@ class Game(object):
             
 
 if __name__ == '__main__':
+    
+    print "Welcome to Dominion\n"
 
     p1 = HumanPlayer('Andreas')
     p2 = ComputerPlayer('Robert', [strategies.BasicStrategy()])
