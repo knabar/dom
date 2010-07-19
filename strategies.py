@@ -40,7 +40,7 @@ class BasicStrategy(Strategy):
                     return i + 1
         return 0
 
-
+"""
 class DrawCardsStrategy(Strategy):
     
     def applies_to_game(self):
@@ -54,3 +54,4 @@ class DrawCardsStrategy(Strategy):
     def choose_action(self, action_cards):
         for c in action_cards:
             if c.name in self.cards
+"""

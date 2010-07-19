@@ -310,6 +310,10 @@ class Game(object):
 
 if __name__ == '__main__':
 
+    p1 = HumanPlayer('Andreas')
+    p2 = ComputerPlayer('Robert', [strategies.BasicStrategy()])
+    Game([p1, p2]).run()
+    exit()
 
     wins = [0, 0]
     
